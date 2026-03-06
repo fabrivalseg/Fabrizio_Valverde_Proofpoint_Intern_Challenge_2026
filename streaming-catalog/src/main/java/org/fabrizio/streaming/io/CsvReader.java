@@ -19,6 +19,8 @@ public class CsvReader {
         try (Reader reader = new FileReader(filePath)) {
 
             Iterable<CSVRecord> records = CSVFormat.DEFAULT
+                    .withFirstRecordAsHeader()
+                    .withSkipHeaderRecord(true)
                     .parse(reader);
 
             for (CSVRecord record : records) {
