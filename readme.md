@@ -4,6 +4,7 @@ This repository contains my solutions for the technical challenge required for t
 
 ## Repository Structure
 
+```
 Fabrizio_Valverde_Proofpoint_Intern_Challenge_2026
 │
 ├── streaming-catalog
@@ -43,3 +44,4 @@ Fabrizio_Valverde_Proofpoint_Intern_Challenge_2026
     ├── main.py
     ├── file.txt
     └── README.md
+```
